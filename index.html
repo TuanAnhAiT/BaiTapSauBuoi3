@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM paragraph style</title>
+</head>
+
+<body>
+    <div class="bai1">
+        <h3 style="text-align: center;">Bài 1: Khi click vào button thì thay đổi font size, color của text</h3>
+        <p id="text">JavaScript Exercises - w3resource</p>
+        <div class="">
+            <button id="jsstyle" onclick="jsStyle()">Style</button>
+        </div>
+    </div>
+    <div class="bai2">
+        <h3 style="text-align: center;">Bài 2: Khi click vào button thì alert ra tất cả thuộc tính và giá trị tương ứng của thẻ a</h3>
+        <p><a id="3wr" hreflang="en-us" type="text/html" rel="nofollow" target="_self" href="https://www.w3resource.com/">w3resource</a></p>
+        <button onclick="getAttributes()">Click here to get attributes value</button>
+    </div>
+    <div class="bai3">
+        <h3 style="text-align: center;">Bài 3: Khi click vào button thì thêm 1 dòng vào cuối bảng</h3>
+        <table id="sampleTable" border="1">
+            <tr>
+                <td>Row1 Cell1</td>
+                <td>Row1 Cell2</td>
+            </tr>
+            <tr>
+                <td>Row1 Cell2</td>
+                <td>Row2 Cell2</td>
+            </tr>
+        </table>
+        <br>
+        <input type="button" onclick="insertRow()" value="Insert row">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
